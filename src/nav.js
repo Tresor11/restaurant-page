@@ -6,7 +6,7 @@ function nav() {
   const menueBtn = method.create('button', 'btn btn-outline-dark', 'menuB');
   const contactBtn = method.create('button', 'btn btn-outline-dark', 'contactB');
   method.updateHtml(homeBtn, '<i class="fas fa-glass-martini">HOME</i>');
-  method.updateHtml(menueBtn, '<i class="fas fa-book-open">MENUE</i>');
+  method.updateHtml(menueBtn, '<i class="fas fa-book-open">MENU</i>');
   method.updateHtml(contactBtn, '<i class="fas fa-phone    ">contact</i>');
   [homeBtn, menueBtn, contactBtn].forEach(el => { method.append(navbar, el); });
   return navbar;

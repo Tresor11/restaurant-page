@@ -1,10 +1,10 @@
-/* eslint-disable no-unused-expressions */
-/* eslint-disable func-names */
+/* eslint-disable no-cond-assign */
+/* eslint-disable no-bitwise */
 /* eslint-disable no-multi-assign */
 /* eslint-disable no-return-assign */
 /* eslint-disable no-sequences */
-/* eslint-disable no-bitwise */
-/* eslint-disable no-cond-assign */
+/* eslint-disable no-unused-expressions */
+/* eslint-disable func-names */
 /* eslint-disable no-underscore-dangle */
 /* eslint-disable no-restricted-syntax */
 /* eslint-disable guard-for-in */
@@ -34,7 +34,15 @@
       (n.r(a),
       Object.defineProperty(a, 'default', { enumerable: !0, value: e }),
       2 & t && typeof e !== 'string')
-    ) for (const c in e) n.d(a, c, (t => e[t]).bind(null, c));
+    ) {
+      for (const c in e) {
+        n.d(
+          a,
+          c,
+          ((t) => e[t]).bind(null, c),
+        );
+      }
+    }
     return a;
   }),
   (n.n = function (e) {
@@ -53,7 +61,7 @@
   (n.p = ''),
   n((n.s = 0));
 }([
-  function (e, t, n) {
+  function (_e, t, n) {
     n.r(t);
     const a = {
       create(e, t, n) {
@@ -90,7 +98,7 @@
       const c = a.create('button', 'btn btn-outline-dark', 'contactB');
       return (
         a.updateHtml(t, '<i class="fas fa-glass-martini">HOME</i>'),
-        a.updateHtml(n, '<i class="fas fa-book-open">MENUE</i>'),
+        a.updateHtml(n, '<i class="fas fa-book-open">MENU</i>'),
         a.updateHtml(c, '<i class="fas fa-phone    ">contact</i>'),
         [t, n, c].forEach(t => {
           a.append(e, t);
