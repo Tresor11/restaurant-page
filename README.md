@@ -24,7 +24,7 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 make sure you have node and npm istalled on you local computer
 ### clone the repo by typing
-```https://github.com/Tresor11/restaurant-page.git```
+```git clone https://github.com/Tresor11/restaurant-page.git```
 ### Install
 run 
 ```npm install```
