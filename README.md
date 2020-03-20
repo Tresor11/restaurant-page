@@ -2,7 +2,7 @@
 
 > This repo contains an implementation of a restaurant page by using javaScript to dynamically add the content.
 
-![screenshot](./Screenshot from 2020-03-20 23-47-12.png)
+![screenshot](./shoot.png)
 
 ## Built With
 
@@ -24,7 +24,7 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 make sure you have node and npm istalled on you local computer
 ### clone the repo by typing
-```git cloce 
+```https://github.com/Tresor11/restaurant-page.git
 ```
 ### Install
 run 
