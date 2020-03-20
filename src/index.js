@@ -1,3 +1,4 @@
+/* eslint-disable func-names */
 import method from './method';
 import nav from './nav';
 import contact from './contact';
