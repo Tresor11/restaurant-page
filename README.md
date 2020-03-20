@@ -2,7 +2,7 @@
 
 > This repo contains an implementation of a restaurant page by using javaScript to dynamically add the content.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./Screenshot from 2020-03-20 23-47-12.png)
 
 ## Built With
 
