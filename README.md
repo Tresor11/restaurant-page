@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://rawcdn.githack.com/Tresor11/restaurant-page/5ab887e9602a058ee75b59fb28457f789ac70959/dist/index.html)
 
 
 ## Getting Started
