@@ -1,0 +1,22 @@
+body{
+  overflow-x: hidden;
+  background: url('./images/bookle.jpg'),no-repeat;
+  background-size: cover;
+}
+#cont{
+  background-color: rgba(0, 0, 0, 0.082);
+}
+#menu-img{
+  height: 300px;
+}
+.menu-img{
+  border-radius: 10%;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
+}
+
+#contact,#menu{
+  display: none;
+}
